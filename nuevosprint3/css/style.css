@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    text-align: center;
+    
+}
+.general{
+    background-color: #e9e6f3;
+}
+.solido{
+
+    width: 100% !important; 
+
+    margin: auto;
+}
+.barra{
+    display: inline-block;
+    padding: 8px;
+    margin: auto;
+    color:white;
+    text-decoration: underline;
+    border-radius: 13px;
+    color: rgba(0,0,0,.55);
+    font-size: 30px;
+}
+.table-container{
+    background-color:#e9e6f3;
+
+}
+input{
+    border-radius: 10px 0 10px 0;
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+}
+
+select{
+    width: 100%;
+    border-radius: 10px 0 10px 0;
+    height: auto;
+    font-size: 25px;
+}
+.boton{
+    width: 20%;
+    height: auto;
+    border-radius: 100px;
+    background-color: rgba(245, 245, 245, 0.912);
+    font-size: 30px;
+}
+
+h1 {
+    
+    color: white;
+    padding: 25px;
+    background-color: #d3d3d3;
+    border: rgb(155, 152, 152) 3px;
+    text-shadow: 0 2px black, 0 3px #777;
+    font-size: 50px;
+    
+    border-right: black solid 1px;
+  
+    
+}
+
+.generaltitle{
+    color: #343434;
+	font-weight: normal; 
+	font-size: 56px;
+	line-height: 42px;
+    font-style: italic;
+    
+	text-shadow: 0 2px white, 0 3px #777;
+}
+
+fieldset{
+    font-size: 30px;
+    clear: both;
+    margin: auto;
+    width: 100%;
+    padding-bottom: 80px;
+    background-color:  #e9e6f3;
+ padding: 0;
+    border: seashell 3px;
+
+}
+.tablependientes {
+
+    clear: both;
+    margin: auto;
+    height: 500px;
+    width: 50%;
+
+}
+.footer{
+    background-color:  #e9e6f3;
+    margin: auto;
+    width: 100%;
+    
+}
+.div-content{
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    display: grid
+}
+.div-content .text{
+    text-align: start;
+}
+table{
+    
+    clear: both;
+    border: black;
+    margin: auto;
+    height: 200px;
+    width: 70%;   
+    font-size: 20px;
+}
+#chat {
+    width: 30%;
+    background-color: #d3d3d3;
+    padding: 0px;
+    height: 200px;
+    margin: auto;
+    border: black 4px ;
+    border-style: double;
+    border-radius: 13px 13px 0 0 ;
+    text-align: start;
+   
+    
+}
+#chat p{
+    margin: 30px;
+    text-align: start;
+}
+
+#mensaje {
+    top: 10px;
+    clear: both;
+    margin: auto;
+    width: 90%;
+    border: black 2px;
+}
+
+#chat-mensaje{
+    border: 1px solid black;
+    border-radius: 10px 10px 0 0  ;
+}
+
+.cuadro {
+    border: black 2px;
+    background-color: rgb(207, 202, 202);
+    padding: 10px;
+
+}
+.container-table{
+    background-color: #e9e6f3;
+    display: flex;
+    padding-bottom:50px;
+    margin: auto;
+    width: 100%;
+    align-content: center;
+    padding-bottom: 80px;
+}
+.container-table .tittle{
+    background-color: #bcbcbc;
+    border-radius:  10px 10px  0px 0px;
+}
+.container-table .casilla{
+    background-color:  #e9e6f3;
+    border-radius: 10px 0 10px 0;
+}

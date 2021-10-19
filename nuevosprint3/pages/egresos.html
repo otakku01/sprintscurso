@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!--Link de CSS de forma remota de Bootstrap_Llama al recurso-->  <!--Mejo manera por peso es utilizarlo de manera remota-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Egresos</title>
+</head>
+<body class="bg-secondary">
+    <!---->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="text-center text-white">Lista de Egresos</h2>
+                <hr>
+                <a href="egreso_crear.html" ><button class="btn btn-sm btn-primary">Crear</button><br><br></a> <!--Botón con hipervinculo-->
+                <!---->
+                    <div class="table-responsive">
+                    <table class="table table-dark table-hover">
+                        <thead>
+                             <tr>  <!--Primera fila-->
+                                <th width="10%">No. de egreso</th>
+                                <th width="30%">Tipo de egreso</th>
+                                <th width="30%">Valor del egreso</th>
+                                <th width="30%">Opciones</th>
+                             </tr>
+                             </thead>
+                             <tbody>
+                             <tr>  <!--Segunda fila-->
+                                <td>1</td>
+                                <td>Arriendo</td>
+                                <td>$500.000</td>
+                                <td><a href="egreso_editar.html" class="btn btn-sm btn-primary">Editar</a> | <!--<a href="#" class="btn btn-sm btn-danger" >Eliminar</a></td>-->
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    Eliminar
+                                </button>
+                             </tr>  
+                             <tr>  <!--Tercera fila-->
+                                <td>2</td>
+                                <td>Gasto para el mercado</td>
+                                <td>$100.000</td>                                
+                                <td><a href="egreso_editar.html"  class="btn btn-sm btn-primary">Editar</a> | 
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    Eliminar
+                                  </button>
+                            </tr> 
+                             <tr>  <!--Cuarta fila-->
+                                <td>3</td>
+                                <td>Servicio públicos</td>
+                                <td>$350.500</td>
+                                <td><a href="egreso_editar.html"  class="btn btn-sm btn-primary">Editar</a> | 
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    Eliminar
+                                  </button>
+                            </tr>
+                             <tr>  <!--Quinta fila-->
+                                <td>4</td>
+                                <td>Veterinario</td>
+                                <td>$250.000</td>
+                                <td><a href="egreso_editar.html"  class="btn btn-sm btn-primary">Editar</a> | 
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    Eliminar
+                                  </button>
+                            </tr>
+                             </tbody>
+                         </table>
+                     </div>
+                        </div>
+                    </div>
+                </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Egresos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ¿Estas seguro de eliminar este Egreso?
+        </div>
+        <div class="modal-footer">
+         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Eliminar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!----------------------------------------------------------------------------->
+    <!--Link de JS de forma remota de Bootstrap_Llama al recurso-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

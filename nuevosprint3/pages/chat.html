@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+    <div class="general">
+        <a href="pendientes.html" class="barra">Pendientes </a> &nbsp;|
+        <a href="ahorros.html" class="barra">Ahorros </a>&nbsp;
+    </div>
+    <h1> BIENVENIDO AL CHAT</h1>
+    <hr>
+    <fieldset>
+        <div class="div-content">
+            <label for="">INGRESE SU NOMBRE :</label>
+            <input type="text" id="nombre" name="nombre" tabindex="1" placeholder="Escriba su nombre" /><br />
+            <label for="">INGRESE SU IDENTIFICACCION :</label>
+            <input type="number" id="indentificacion" name="indentificacion" tabindex="2"
+                placeholder="Escriba su indentificacion" /><br />
+            <label for="">¿CUAL ES SU PREGUNTA ? :</label>
+            <input type="text" id="pregunta" name="pregunta" tabindex="2" placeholder="Escriba su pregunta" /><br />
+
+        </div>
+        <input type="submit" class="boton" value="ir al chat">
+    </fieldset>
+
+    <div class="footer">
+        <br />
+        <br />
+        <div id="chat">
+            <p>
+                Diego Say: Hello <br />
+                Jhon Say: Hi <br />
+                Diego Say: What can I do for you? <br />
+                Jhon Say: I have a problem with <br />
+                ...<br />...<br />...<br />
+            </p>
+        </div>
+        <form id="mensaje">
+            <div class="div-content">
+                <input type="text" id="chat-mensaje">
+            </div>
+            <input type="submit" class="boton"><br /><br />
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="chat.js" charset="utf-8"></script>
+
+</body>
+
+</html>
